@@ -7,4 +7,10 @@ using System.Xml.Linq;
 
 namespace Exercise4
 {
+    class Stack
+    {
+        int max = 104;
+        int top;
+        int[] diva = new int[max = 104];
+    }
 }
