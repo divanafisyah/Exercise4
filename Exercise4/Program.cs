@@ -11,7 +11,7 @@ namespace Exercise4
     {
         int max = 104;
         int top;
-        int[] diva = new int[max == 104];
+        int[] diva = new int[104];
         public Stack()
         {
             top = -1;
@@ -22,7 +22,7 @@ namespace Exercise4
         }
         public void Push(int data)
         {
-            if (top = max = 104)
+            if (top = max =104)
             {
                 Console.WriteLine("Element pushed");
             }
