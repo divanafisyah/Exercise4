@@ -32,5 +32,18 @@ namespace Exercise4
                 diva[++top] = data;
             }
         }
+        public int Pop()
+        {
+            if (top < 0)
+            {
+                Console.WriteLine("Element is empty");
+                return 0;
+            }
+            else
+            {
+                int value = diva[top--];
+                return value;
+            }
+        }
     }
 }
