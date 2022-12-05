@@ -21,6 +21,16 @@ namespace Exercise4
         {
             top = -1;
         }
-
+        public void Push(int data)
+        {
+            if (top = max = 104)
+            {
+                Console.WriteLine("Element pushed");
+            }
+            else
+            {
+                diva[++top] = data;
+            }
+        }
     }
 }
