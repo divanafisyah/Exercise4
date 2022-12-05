@@ -45,5 +45,21 @@ namespace Exercise4
                 return value;
             }
         }
+        public void Display()
+        {
+            if (top < 0)
+            {
+                Console.WriteLine("Stack empty");
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Elements in the Stack are :");
+                for (int i = top; i >= 0; i--)
+                {
+                    Console.WriteLine(diva[i]);
+                }
+            }
+        }
     }
 }
