@@ -11,15 +11,14 @@ namespace Exercise4
     {
         int max = 104;
         int top;
-        int[] diva = new int[max = 104];
-
-        public bool Empty()
-        {
-            return (top < 0);
-        }
+        int[] diva = new int[max == 104];
         public Stack()
         {
             top = -1;
+        }
+        public bool Empty()
+        {
+            return (top < 0);
         }
         public void Push(int data)
         {
