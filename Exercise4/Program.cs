@@ -21,5 +21,6 @@ namespace Exercise4
         {
             top = -1;
         }
+
     }
 }
